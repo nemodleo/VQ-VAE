@@ -38,4 +38,4 @@ VQ-VAE_Test.ipynb
 
 
 ## pretrained Model
-```./result/ckpt/*``
+```./result/ckpt/```
