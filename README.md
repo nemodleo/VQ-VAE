@@ -15,23 +15,27 @@ CiFar10을 기본 베이스 데이터셋으로 하여 학습하였습니다.
 
 추가적으로 PixelCNN Decoder을 통한 Sampler을 시도 중입니다
 
+![epoch1](./asset/epoch1.png)
+![epoch31](./asset/epoch30.png)
+
 ## Env
 ```
 pip install -r requirements.txt
 ```
-
-## Train
+## Run
+### Train
 ```
 VQ-VAE.ipynb
 ```
 
-## Test
+#### Train Log (including pic)
+[wandb](https://wandb.ai/nemod-leo/VQ-VAE/runs/tlwp9uqp?workspace=user-nemod-leo)
+
+### Test
 ```
 VQ-VAE_Test.ipynb
 ```
 
+
 ## pretrained Model
 ```./result/ckpt/*``
-
-## Train Log (including pic)
-[wandb](https://wandb.ai/nemod-leo/VQ-VAE/runs/tlwp9uqp?workspace=user-nemod-leo)
