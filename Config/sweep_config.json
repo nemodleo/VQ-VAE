@@ -1,0 +1,33 @@
+{
+  "method": "random",
+  "metric": {
+      "name": "val_loss",
+      "goal": "miniimize"
+  },
+  "parameters": {
+        "num_hiddens": {
+            "values": [128]
+        },
+        "num_residual_layers": {
+            "values": [2]
+        },
+        "num_residual_hiddens": {
+            "values": [32]
+        },
+        "num_embeddings": {
+            "values": [512]
+        },
+        "embedding_dim": {
+            "values": [64]
+        },
+        "beta": {
+            "values": [0.25]
+        },
+        "lr": {
+            "values": [1e-3]
+        },
+        "batch_size": {
+            "values": [32]
+        },
+    }
+}
